@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom reusable classes */
+.wallet-btn {
+  @apply flex items-center justify-center p-3 bg-gray-700/80 hover:bg-gray-600 text-white 
+         rounded-xl shadow-md hover:shadow-lg border border-gray-600 transition;
+}
+
+
+#full-page{
+  color: hsl(197, 28, 10);
+}
