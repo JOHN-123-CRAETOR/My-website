@@ -6,16 +6,12 @@ function LoginPage() {
       id="full-page"
       className="max-h-screen w-full bg-[#121C20] flex flex-col"
     >
-      {/* Full Page Container */}
       <div className="max-h-screen w-full bg-[#121C20] backdrop-blur-md p-20 flex flex-col justify-center">
-        {/* Title */}
         <h1 className="text-white text-5xl text-center font-semibold mb-20 pl-6">
           Welcome back
         </h1>
 
-        {/* Form (aligned left) */}
         <form className="space-y-5 w-full max-w-lg pl-6">
-          {/* Email */}
           <div className="ml-50">
             <label
               htmlFor="email"
@@ -32,7 +28,6 @@ function LoginPage() {
             />
           </div>
 
-          {/* Password */}
           <div className="ml-50">
             <label
               htmlFor="password"
@@ -49,7 +44,6 @@ function LoginPage() {
             />
           </div>
 
-          {/* Forgot password */}
           <div className="ml-50">
             <a
               href="#"
@@ -59,7 +53,6 @@ function LoginPage() {
             </a>
           </div>
 
-          {/* Login Button */}
           <button
             type="submit"
             className="w-170 py-4 bg-[#1294D3] hover:bg-blue-600 text-white font-semibold rounded-md 
@@ -69,16 +62,13 @@ function LoginPage() {
           </button >
         </form>
 
-        {/* Divider (centered) */}
         <div className="flex items-center my-6 max-w-lg mx-auto">
           <hr className="flex-grow border-gray-700" />
           <span className="px-3 text-[#55717E] text-sm">Or continue with</span>
           <hr className="flex-grow border-gray-700" />
         </div>
 
-        {/* Wallet Options */}
         <div className="max-w-xl mx-auto space-y-4 w-full">
-          {/* MetaMask & WalletConnect */}
           <div className="flex gap-4 w-full">
             <button className="flex-[8] flex items-center justify-center py-4 bg-[#243C47] hover:bg-gray-600 text-white rounded-xl shadow-md hover:shadow-lg transition">
               MetaMask
@@ -88,7 +78,6 @@ function LoginPage() {
             </button>
           </div>
 
-          {/* Coinbase & Other Wallet */}
           <div className="flex gap-4 w-full pb-21">
             <button className="flex-[7] flex items-center justify-center py-4 bg-[#243C47] hover:bg-gray-600 text-white rounded-xl shadow-md hover:shadow-lg transition">
               Coinbase
@@ -104,3 +93,4 @@ function LoginPage() {
 }
 
 export default LoginPage;
+
